@@ -1,0 +1,32 @@
+body {
+  background-color: #666;
+  }
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: inline;  
+  }
+
+ul {
+    display: inline;
+  }
+
+ul li ul {
+    position:fixed;
+    display: none;
+  }
+
+ul li ul li { 
+    display: block; 
+  }
+
+
+  ul li:hover ul {
+    display: inline;
+  }
+
+  
+ul li ul li:hover {
+      background: rgb(185, 146, 146);
+    }
