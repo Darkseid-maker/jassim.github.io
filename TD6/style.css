@@ -9,7 +9,7 @@ div a {
   }
 
 ul {
-    display: inline;
+    list-style-type: none;
   }
 
 ul li ul {
